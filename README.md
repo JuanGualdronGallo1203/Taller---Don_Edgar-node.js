@@ -28,18 +28,31 @@ Marcar tareas como completadas.
 Filtrar y buscar de manera rápida.
 
 🗂️ Estructura del Proyecto
+
 ├── controllers/
+
 │   └── tareasController.js   # Lógica de negocio: CRUD de tareas
+
 ├── helpers/
+
 │   └── lodashHelpers.js      # Funciones utilitarias (ordenar, agrupar, filtrar, etc.)
+
 ├── models/
+
 │   └── tareas.js             # Definición de la clase Tarea
+
 ├── utils/
+
 │   ├── archivo.js            # Lectura y escritura en JSON
+
 │   └── validaciones.js       # Validaciones de entradas y confirmaciones
+
 ├── data/
+
 │   └── tareas.json           # Archivo de almacenamiento de datos
+
 ├── menu.js                   # Menú interactivo con opciones numeradas
+
 └── README.md                 # Documentación del proyecto
 
 ⚙️ Requisitos Previos
